@@ -1,12 +1,9 @@
-import {Input, Typography} from "@mui/joy";
+import { Input } from "@mui/joy";
 
 export const SignupForm = () => {
   return (
     <>
-      <Input
-        placeholder="Enter your email"
-        type="email"
-      />
+      <Input placeholder="Enter your email" type="email" />
     </>
-  )
-}
+  );
+};
