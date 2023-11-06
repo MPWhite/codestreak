@@ -1,16 +1,7 @@
 import styled from "styled-components";
-import {
-  Button,
-  Chip,
-  ChipDelete,
-  IconButton,
-  Input,
-  Link,
-  Typography,
-} from "@mui/joy";
+import { Button, Typography } from "@mui/joy";
 import { ParticlesWrapper } from "./pages/ParticlesWrapper.tsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCopy } from "@fortawesome/free-regular-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import PhoneNumberInput from "./pages/PhoneInput.tsx";
 
@@ -32,7 +23,7 @@ const FormWrapper = styled.div`
 const App = () => {
   return (
     <Background>
-      {/*<ParticlesWrapper />*/}
+      <ParticlesWrapper />
       <FormWrapper>
         {/*<>*/}
         {/*  <Link*/}
